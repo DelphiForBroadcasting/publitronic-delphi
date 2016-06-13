@@ -1,0 +1,3330 @@
+POST / HTTP/1.0
+Connection: Keep-Alive
+Content-Type: text/xml
+Content-Length: 3594
+Host: 192.168.7.102:5020
+Accept: */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+
+<?xml version="1.0"?><methodCall><methodName>CobaltDataBase.Store</methodName><params><param><value><string>Asset_Element</string></value></param><param><value>
+  <struct>
+    <member>
+      <name>ID</name>
+      <value><string>-1</string></value>
+    </member>
+    <member>
+      <name>SAVE_STAMP</name>
+      <value><string>0</string></value>
+    </member>
+    <member>
+      <name>MODIFIED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+    <member>
+      <name>NEW</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+</param><param><value>
+  <array>
+    <data>
+      <value><int>7</int></value>
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>id_category</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>264</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>asset_string</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>MTV_Clips_RU_UA</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>custom_metadata</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>search</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>1 1 1 1 </string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>status_int</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>status_string</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>-</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>external_ref</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string></string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+</param></params></methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 421
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731859416</string></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>0</int></value>
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: Keep-Alive
+Content-Type: text/xml
+Content-Length: 10087
+Host: 192.168.7.102:5020
+Accept: */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+
+<?xml version="1.0"?><methodCall><methodName>CobaltDataBase.Store</methodName><params><param><value><string>Asset_Element</string></value></param><param><value>
+  <struct>
+    <member>
+      <name>ID</name>
+      <value><string>9268</string></value>
+    </member>
+    <member>
+      <name>SAVE_STAMP</name>
+      <value><string>3153957731859416</string></value>
+    </member>
+    <member>
+      <name>MODIFIED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+</param><param><value>
+  <array>
+    <data>
+      <value><int>19</int></value>
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>id_category</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>264</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>asset_string</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>MTV_Clips_RU_UA</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>remove_date</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>63462873600000</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>updated_date</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>0</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>creation_date</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>63446841950720</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>file_extension</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>mpg</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>id_master_asset_element</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>0</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>custom_metadata</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>type_metadata</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>search</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>1 1 1 1 </string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>status_int</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>status_string</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string></string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>asset_host_ip</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string>not_used</string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>asset_host_port</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>external_ref</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string></string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>res_int_1</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>res_int_2</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>res_string_1</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string></string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>FIELD_NAME</name>
+      <value><string>res_string_2</string></value>
+    </member>
+    <member>
+      <name>FIELD_VALUE</name>
+      <value><string></string></value>
+    </member>
+    <member>
+      <name>FIELD_CHANGED</name>
+      <value><boolean>1</boolean></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+</param></params></methodCall>
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 3510
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731859672</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>2</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 143
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltSystem.GetSystemTime</methodName>
+<params>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 367
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><struct>
+<member>
+<name>date</name>
+<value><int>734338</int></value>
+</member>
+<member>
+<name>time</name>
+<value><int>37706621</int></value>
+</member>
+<member>
+<name>datetime</name>
+<value><string>63446840906600</string></value>
+</member>
+</struct></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 1230
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.GetCollection</methodName>
+<params>
+<param><value><struct>
+<member><name>OBJECT_TYPE</name>
+<value><string>asset_element</string></value></member>
+<member><name>LOGICAL_OPERATOR</name>
+<value><string>AND</string></value></member>
+<member><name>CRITERIA_TYPE</name>
+<value><string>EQUALS</string></value></member>
+<member><name>FIELD</name>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>id</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><string>9268</string></value></member>
+</struct></value></member>
+</struct></value></param>
+<param><value><struct>
+<member><name>OBJECT_TYPE</name>
+<value><string>asset_element</string></value></member>
+<member><name>LOGICAL_OPERATOR</name>
+<value><string>AND</string></value></member>
+<member><name>CRITERIA_TYPE</name>
+<value><string>EQUALS</string></value></member>
+<member><name>FIELD</name>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>status_int</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><int>2</int></value></member>
+</struct></value></member>
+</struct></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 375
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><int>1</int></value>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731859672</string></value>
+</member>
+</struct></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 402
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.Retrieve</methodName>
+<params>
+<param><value><string>asset_element</string></value></param>
+<param><value><struct>
+<member><name>ID</name>
+<value><string>9268</string></value></member>
+<member><name>SAVE_STAMP</name>
+<value><string>0</string></value></member>
+</struct></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 8355
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731859672</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>19</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_category</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>264</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>MTV_Clips_RU_UA</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>remove_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63462873600000</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>updated_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>creation_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63446841950720</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>file_extension</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>mpg</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_master_asset_element</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>search</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>1 1 1 1 </string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_int</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>2</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_ip</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>not_used</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_port</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>external_ref</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 915
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.Store</methodName>
+<params>
+<param><value><string>asset_element</string></value></param>
+<param><value><struct>
+<member><name>ID</name>
+<value><string>9268</string></value></member>
+<member><name>SAVE_STAMP</name>
+<value><string>0</string></value></member>
+<member><name>MODIFIED</name>
+<value><boolean>1</boolean></value></member>
+<member><name>NEW</name>
+<value><boolean>0</boolean></value></member>
+</struct></value></param>
+<param><value><array><data>
+<value><int>1</int></value>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>status_int</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><int>4</int></value></member>
+<member><name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value></member>
+</struct></value>
+</data></array></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 8080
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731860055</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>18</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_category</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>264</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>MTV_Clips_RU_UA</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>remove_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63462873600000</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>updated_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>creation_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63446841950720</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>file_extension</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>mpg</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_master_asset_element</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>search</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>1 1 1 1 </string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_ip</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>not_used</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_port</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>external_ref</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 929
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.Store</methodName>
+<params>
+<param><value><string>asset_element</string></value></param>
+<param><value><struct>
+<member><name>ID</name>
+<value><string>9268</string></value></member>
+<member><name>SAVE_STAMP</name>
+<value><string>0</string></value></member>
+<member><name>MODIFIED</name>
+<value><boolean>1</boolean></value></member>
+<member><name>NEW</name>
+<value><boolean>0</boolean></value></member>
+</struct></value></param>
+<param><value><array><data>
+<value><int>1</int></value>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>filesize_1</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><string>325090632</string></value></member>
+<member><name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value></member>
+</struct></value>
+</data></array></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 8355
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731860075</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>19</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_category</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>264</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>MTV_Clips_RU_UA</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>remove_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63462873600000</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>updated_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>creation_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63446841950720</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>file_extension</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>mpg</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_master_asset_element</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>search</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>1 1 1 1 </string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_int</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>4</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_ip</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>not_used</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_port</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>external_ref</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 930
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.Store</methodName>
+<params>
+<param><value><string>asset_element</string></value></param>
+<param><value><struct>
+<member><name>ID</name>
+<value><string>9268</string></value></member>
+<member><name>SAVE_STAMP</name>
+<value><string>0</string></value></member>
+<member><name>MODIFIED</name>
+<value><boolean>1</boolean></value></member>
+<member><name>NEW</name>
+<value><boolean>0</boolean></value></member>
+</struct></value></param>
+<param><value><array><data>
+<value><int>1</int></value>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>status_string</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><string>xfer 1%</string></value></member>
+<member><name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value></member>
+</struct></value>
+</data></array></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 8361
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731860553</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>19</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_category</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>264</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>MTV_Clips_RU_UA</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>remove_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63462873600000</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>updated_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>creation_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63446841950720</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>file_extension</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>mpg</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_master_asset_element</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>search</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>1 1 1 1 </string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_int</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>4</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>filesize_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>325090632</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_ip</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>not_used</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_port</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>external_ref</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 932
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.Store</methodName>
+<params>
+<param><value><string>asset_element</string></value></param>
+<param><value><struct>
+<member><name>ID</name>
+<value><string>9268</string></value></member>
+<member><name>SAVE_STAMP</name>
+<value><string>0</string></value></member>
+<member><name>MODIFIED</name>
+<value><boolean>1</boolean></value></member>
+<member><name>NEW</name>
+<value><boolean>0</boolean></value></member>
+</struct></value></param>
+<param><value><array><data>
+<value><int>1</int></value>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>status_string</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><string>xfer 100%</string></value></member>
+<member><name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value></member>
+</struct></value>
+</data></array></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 8361
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731877221</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>19</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_category</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>264</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>MTV_Clips_RU_UA</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>remove_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63462873600000</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>updated_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>creation_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63446841950720</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>file_extension</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>mpg</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_master_asset_element</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>search</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>1 1 1 1 </string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_int</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>4</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>filesize_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>325090632</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_ip</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>not_used</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_port</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>external_ref</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POST / HTTP/1.0
+Connection: keep-alive
+Content-Length: 915
+Host: 192.168.7.102:5020
+Accept: text/html, */*
+User-Agent: Mozilla/3.0 (compatible; Indy Library)
+Authorization: Basic Og==
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>CobaltDataBase.Store</methodName>
+<params>
+<param><value><string>asset_element</string></value></param>
+<param><value><struct>
+<member><name>ID</name>
+<value><string>9268</string></value></member>
+<member><name>SAVE_STAMP</name>
+<value><string>0</string></value></member>
+<member><name>MODIFIED</name>
+<value><boolean>1</boolean></value></member>
+<member><name>NEW</name>
+<value><boolean>0</boolean></value></member>
+</struct></value></param>
+<param><value><array><data>
+<value><int>1</int></value>
+<value><struct>
+<member><name>FIELD_NAME</name>
+<value><string>status_int</string></value></member>
+<member><name>FIELD_VALUE</name>
+<value><int>5</int></value></member>
+<member><name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value></member>
+</struct></value>
+</data></array></value></param>
+</params>
+</methodCall>
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/xml
+Content-Length: 8378
+Server: PubliTronic Cobalt DXMLRPC SERVER
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse><params><param><value><array><data>
+<value><struct>
+<member>
+<name>ID</name>
+<value><string>9268</string></value>
+</member>
+<member>
+<name>SAVE_STAMP</name>
+<value><string>3153957731877382</string></value>
+</member>
+<member>
+<name>MODIFIED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><array><data>
+<value><int>19</int></value>
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_category</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>264</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>MTV_Clips_RU_UA</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>remove_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63462873600000</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>updated_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>creation_date</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>63446841950720</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>file_extension</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>mpg</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>id_master_asset_element</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>0</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>custom_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgaWQ9IjAiIG5hbWU9Im1JRCIgPjE8L0ZJRUxEPjxGSUVMRCBpZD0iMSIgY29u
+dGVudF91bmk9InU0OSIgbmFtZT0iQXJ0aXN0IiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIyIiBjb250
+ZW50X3VuaT0idTQ5IiBuYW1lPSJTb25nIiA+MTwvRklFTEQ+PEZJRUxEIGlkPSIzIiBjb250ZW50
+X3VuaT0idTQ5IiBuYW1lPSJBbGJ1bSIgPjE8L0ZJRUxEPjwvWE1MPg==</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>type_metadata</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><base64>PFhNTD48RklFTEQgbmFtZT0iZmlsZW5hbWUiPmEwMDA2MjY4Lm1wZzwvRklFTEQ+PEZJRUxEIG5h
+bWU9InVzZSBkdXJhdGlvbiI+MDA6MDQ6MTU6MDAgPC9GSUVMRD48RklFTEQgbmFtZT0idGMgaW4i
+PjAwOjAwOjAwOjAwIDwvRklFTEQ+PEZJRUxEIG5hbWU9InRjIG91dCI+MDA6MDQ6MTU6MDAgPC9G
+SUVMRD48RklFTEQgbmFtZT0iY2xpcCBkdXJhdGlvbiI+MDA6MDQ6MTU6MDA8L0ZJRUxEPjxGSUVM
+RCBuYW1lPSJpbmdlc3QgZGF0ZSI+MjAxMS0wNy0yMCAxMDo0NTo0MzwvRklFTEQ+PEZJRUxEIG5h
+bWU9Im9yaWdpbiI+QzpcVXNlcnNcYWxleFxEZXNrdG9wXDwvRklFTEQ+PEZJRUxEIG5hbWU9InJl
+bW92ZSBkYXRlIj4yMDEyLTAxLTIyPC9GSUVMRD48RklFTEQgbmFtZT0iaW5mbyI+ZmlsZXNpemUg
+PSAzMTAuNDcxIE1CXnx3aWR0aCA9IDc2OF58aGVpZ2h0ID0gNTc2Xnw8L0ZJRUxEPjxGSUVMRCBu
+YW1lPSJfdGh1bWIiPi85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQUNBV0dCd1lGQ0Fj
+R2h3a0lpQW1NRkEwTUN3c01HSkdTanBRZEdaNmVISm1jRzZBa0xpY2dJaXVpbTV3b05xaXJyN0V6
+dERPZkpyaTh1REk4TGpLenNiLzJ3QkRBU0lrSkRBcU1GNDBORjdHaEhDRXhzYkd4c2JHeHNiR3hz
+Ykd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2JHeHNiR3hzYkd4c2Ivd0FB
+UkNBQmdBSGdEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FG
+QmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhC
+eUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEw
+UkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpX
+V2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhp
+NCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNB
+d1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVR
+ZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpn
+NU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1L
+a3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgy
+Tm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RG42S0tLQUNpaWln
+QW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fv
+b29vQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tB
+Q2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29v
+b0FLS0tLQUNpaWlnQW9vb29BLzlrPTwvRklFTEQ+PC9YTUw+</base64></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>search</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>1 1 1 1 </string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>filesize_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>325090632</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>status_string</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>xfer 100%</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_ip</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string>not_used</string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>asset_host_port</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>external_ref</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_int_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><int>0</int></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_1</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+<value><struct>
+<member>
+<name>FIELD_NAME</name>
+<value><string>res_string_2</string></value>
+</member>
+<member>
+<name>FIELD_VALUE</name>
+<value><string></string></value>
+</member>
+<member>
+<name>FIELD_CHANGED</name>
+<value><boolean>1</boolean></value>
+</member>
+</struct></value>
+
+</data></array></value>
+
+</data></array></value>
+</param></params></methodResponse>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<XML>
+<FIELD name="filename">a0006268.mpg</FIELD>
+<FIELD name="use duration">00:04:15:00 </FIELD>
+<FIELD name="tc in">00:00:00:00 </FIELD>
+<FIELD name="tc out">00:04:15:00 </FIELD>
+<FIELD name="clip duration">00:04:15:00</FIELD>
+<FIELD name="ingest date">2011-07-20 10:45:43</FIELD>
+<FIELD name="origin">C:\Users\alex\Desktop\</FIELD>
+<FIELD name="remove date">2012-01-22</FIELD>
+<FIELD name="info">filesize = 310.471 MB^|width = 768^|height = 576^|</FIELD>
+<FIELD name="_thumb">/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCABgAHgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDn6KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=</FIELD>
+</XML>

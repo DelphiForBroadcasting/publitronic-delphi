@@ -1,0 +1,23 @@
+<XML>
+<ITEM name="custom_metadata"></ITEM>
+<ITEM name="asset_string">M1_Clips_test</ITEM>
+<ITEM name="asset_id">223</ITEM>
+<ITEM name="search"></ITEM>
+<ITEM name="external_ref"></ITEM>
+<ITEM name="cobalt_host">192.168.7.102</ITEM>
+<ITEM name="cobalt_port">5020</ITEM>
+<ITEM name="source_path">D:\CobaltIN</ITEM>
+<ITEM name="monitoring_wait">6000</ITEM>
+<ITEM name="file_extension">mpg</ITEM>
+<ITEM name="view_subfolders">true</ITEM>
+<ITEM name="delta_temp_path">\delta\objects\temp\</ITEM>
+<ITEM name="delete_suorce">false</ITEM>
+<ITEM name="MailEvents">
+<SMTP>smtp.freehand.com.ua</SMTP>
+<PORT>25</PORT>
+<FromEmail>frommail@freehand.com.ua</FromEmail>
+<ToEmail>tomail@freehand.com.ua</ToEmail>
+<User>mailuser</User>
+<Password>mailpass</Password>
+</ITEM>
+</XML>

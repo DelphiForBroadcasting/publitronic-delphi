@@ -1,0 +1,20 @@
+<XML>
+<ITEM name="custom_metadata"><XML>
+<FIELD id="0" name="mID" >m1</FIELD>
+<FIELD id="1" name="Artist" >m2</FIELD>
+<FIELD id="2" name="Song" >m3</FIELD>
+<FIELD id="3" name="Album" >m4</FIELD>
+</XML>
+</ITEM>
+<ITEM name="asset_string">MTV_Clips</ITEM>
+<ITEM name="asset_id">189</ITEM>
+<ITEM name="search"></ITEM>
+<ITEM name="external_ref"></ITEM>
+<ITEM name="cobalt_host">192.168.7.102</ITEM>
+<ITEM name="cobalt_port">5020</ITEM>
+<ITEM name="source_path">d:\1\</ITEM>
+<ITEM name="monitoring_wait">6000</ITEM>
+<ITEM name="file_extension">mpg</ITEM>
+<ITEM name="view_subfolders">true</ITEM>
+<ITEM name="delta_temp_path">\delta\objects\temp\</ITEM>
+</XML>
